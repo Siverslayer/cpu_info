@@ -9,4 +9,4 @@ if __name__ == "__main__":
           
             cpu_info = get_cpu_info()
             print(f"CPU Info: {cpu_info['brand_raw']}, {cpu_info['hz_actual_friendly']}")
-            time.sleep(1)
+            time.sleep(10)
